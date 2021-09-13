@@ -38,3 +38,27 @@ h3{
 ul{
   padding-left: 20px;
 }
+/* caratteristiche pseudo tabella */
+.testa-tab{
+  background-color: teal;
+  color: white;
+}
+.small-cella{
+  display: inline-block;
+  width: 22%;
+ 
+
+}
+.big-cella{
+  display: inline-block;
+  width: 48%;
+}
+.riga{
+  background-color: rgb(113, 222, 226);
+}
+
+
+/*fine tabella*/
+span.evidenza{
+  background-color: yellow;
+}
