@@ -1,3 +1,8 @@
+*{
+  padding: 0px;
+  margin:0px;
+  box-sizing: border-box;
+}
 .container{
   width: 60%;
   margin: auto;
@@ -5,7 +10,7 @@
 .head{
   background-color: rgb(98, 78, 211);
   background-image: url(../img/pattern.png);
-  background-size:contain;
+  background-size:30%;
  
 }
 .logo{
@@ -35,30 +40,41 @@ h3{
 .info-foto{
   font-size: 10px;
 }
+/* contenuti */
+.contenuti{
+  margin-bottom: 30px;
+}
+
 ul{
   padding-left: 20px;
 }
-/* caratteristiche pseudo tabella */
-.testa-tab{
-  background-color: teal;
+/* caratteristiche tabella */
+
+table{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-collapse: collapse;
+}
+.first-row{
+  background-color: steelblue;
   color: white;
 }
-.small-cella{
-  display: inline-block;
-  width: 22%;
- 
-
+.light-row{
+  background-color: lightskyblue;
 }
-.big-cella{
-  display: inline-block;
-  width: 48%;
-}
-.riga{
-  background-color: rgb(113, 222, 226);
+.last-celle{
+  width: 78%;
 }
 
 
 /*fine tabella*/
 span.evidenza{
   background-color: yellow;
+}
+.credits{
+  color: grey;
+  padding-top: 10px;
+}
+.dim-img{
+  width: 20%;
 }
